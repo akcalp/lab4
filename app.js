@@ -49,7 +49,7 @@ function weirdDeals(jsonObj){
         //store a reference to the section element in var section
         let section = document.querySelector('section');
         //set the image src attribute
-        img.setAttribute('src', 'https://github.com/akcalp/lab4/tree/master/img' + deals[i].image);
+        img.setAttribute('src', "https://akcalp.github.io/lab4/img/" + deals[i].image);
         //set the image alt attribute
         img.setAttribute('alt', deals[i].name);
         //set the text content of the h2 to name
@@ -69,3 +69,5 @@ function weirdDeals(jsonObj){
     }
 }
 
+
+// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
