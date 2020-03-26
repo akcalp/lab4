@@ -1,33 +1,32 @@
 {
-  "items": [
-    {
-      "name": "Uranium Ore",
-      "price" : 39.95,
-      "description": "small uranium",
-      "image": "uranium-ore.jpg"
-    },
+  "items": [{
+    "name": "Uranium Ore",
+    "description": "small uranium",
+    "price": 39.95,
+    "image": "uranium-ore.jpg"
+  },
     {
       "name": "Cat Horn",
-      "price" : 7.53,
       "description": "Inflatable Unicorn Horn for Cats",
+      "price": 7.53,
       "image": "cat-horn.jpg"
     },
     {
       "name": "Mask",
-      "price" : 27.48,
       "description": "Pigeon Mask",
+      "price": 27.48,
       "image": "pigeon-mask.jpg"
     },
     {
       "name": "Dog Wig",
-      "price" : 9.57,
       "description": "Small dog wig",
+      "price": 9.57,
       "image": "dog-wig.jpg"
     },
     {
       "name": "Nothing",
-      "price" : 7.00,
       "description": "Absolutely nothing",
+      "price": 7.00,
       "image": "nothing.jpg"
     }
   ]
