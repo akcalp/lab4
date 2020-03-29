@@ -2,9 +2,6 @@ section {
     display:flex;
     justify-content:space-between;
 }
-
-
-
 article {
     padding-left: 40px;
 }
