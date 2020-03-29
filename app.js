@@ -11,10 +11,6 @@ xhr.onload = function () {
 };
 
 
-
-
-
-
 function weirdDeals(jsonObj){
     const deals = jsonObj.items;
 
