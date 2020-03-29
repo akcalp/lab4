@@ -1,19 +1,21 @@
-// const url = "https://raw.githubusercontent.com/akcalp/lab4/master/items.json";
+const requestURL = "https://raw.githubusercontent.com/akcalp/lab4/master/items.json";
+const xhr = new XMLHttpRequest();
 
-function loadJSON(url, type) {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', url);
-    xhr.responseType = type;
+xhr.open('GET', requestURL);
+xhr.responseType = 'json';
+xhr.send();
 
-    xhr.onload = () => {
-        const items = xhr.response;
-        weirdDeals(items);
-    };
+xhr.onload = function () {
+    const items = xhr.response;
+    weirdDeals(items);
+};
 
-    xhr.send();
-}
 
-function weirdDeals(jsonObj) {
+
+
+
+
+function weirdDeals(jsonObj){
     const deals = jsonObj.items;
 
     for (let i = 0; i < deals.length; i++) {
@@ -41,5 +43,3 @@ function weirdDeals(jsonObj) {
         section.appendChild(article);
     }
 }
-
-loadJSON("https://raw.githubusercontent.com/akcalp/lab4/master/items.json", "json");
